@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-image: url(./bcg.jpg);
+    background-position: 0,0;
+    color: white;
+}
+#centerCenter{
+    margin-top: -10vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#centerBox{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    letter-spacing: 0.18em
+}
+#baseClock{
+    margin: 0 auto;
+    display: inline;
+    font-size: 90px;
+    letter-spacing: 0.4em;
+}
+#baseClock span{
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: -10px;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+#dateClock{
+    margin: 0 auto;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.692);
+    letter-spacing: 0.2em;
+}
+#search{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 40vw;
+}
+#search input{
+    background: none;
+    border:none;
+    /* background-color: white; */
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#search input:focus{
+    outline: none;
+}

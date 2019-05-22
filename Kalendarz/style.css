@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.calender{
+    background-color:#313131;
+    /*Tymczasowe style */
+    margin-top:22%;
+    transform: translateY(-50%);
+}
+.columnDay{
+    width: calc(100% / 7);
+    height: auto;
+    float: left;
+}
+.box{
+    width: 70%;
+    padding:4px;
+    background-color: black ;
+    margin-bottom: calc(30% - 10px);
+    margin-top: 10px;
+    border-radius:10px;
+    font-size: 24px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color:white;
+    position: relative;
+}
+.eventBox{
+    width: calc(30% - 2px);
+    border-radius:50%;
+    float: left;
+    margin:1px;
+    background-color: red;
+}
+.colEvent{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 10%;
+}

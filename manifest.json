@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+    "name": "JustTab",
+    "version": "1.0",
+    "description": "An extension that provides custom new tab screen in chrome",
+
+    "chrome_url_overrides": {
+        "newtab": "tab.html"
+    },
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "permissions":[
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
